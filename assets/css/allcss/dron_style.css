@@ -1176,6 +1176,7 @@ a.dtbtn:hover {
     -webkit-transition: .5s;
     transition: .5s;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .all_feature_color {
