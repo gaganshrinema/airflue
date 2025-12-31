@@ -1178,13 +1178,19 @@ a.dtbtn:hover {
 
 .sub-item {
     position: relative;
-    padding: 20px 0;
+    padding: 20px;
     -webkit-transition: .5s;
     transition: .5s;
     margin-bottom: 20px;
     text-align: left;
 }
-
+.sub-item:hover img{
+    transform: rotate(45deg);
+    transition: all 0.5s ease-in-out;
+}
+.sub-item img{
+    transition: all 0.5s ease-in-out;
+}
 .all_feature_color {
     transition: .5s;
 }
@@ -1195,13 +1201,14 @@ a.dtbtn:hover {
 
 .sub-item h3 {
     margin: 28px 0 15px;
+    font-size: 18px;
 }
 
 .feature_btn a {
     -webkit-transition: .5s;
     transition: .5s;
     display: inline-block;
-    padding: 9px 30px;
+    padding: 10px 0;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
@@ -1211,6 +1218,7 @@ a.dtbtn:hover {
 .all_feature_color:hover,
 .feature_inner_box:hover {
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .05);
+    background-color: #ffffff;
 }
 
 .feature_bottom_bg .single_image_area {
@@ -1219,7 +1227,7 @@ a.dtbtn:hover {
 }
 
 .dron2_feature_area {
-    padding: 105px 0;
+    padding: 0 0 95px;
 }
 
 .dron3_feature_area {
@@ -1971,6 +1979,7 @@ span.airFlue_list_icon {
     background-color: #fff;
     border-radius: 10px;
     margin-bottom: 20px;
+    height: 300px;
 }
 
 .dron_process_area .all_feature_color span,
