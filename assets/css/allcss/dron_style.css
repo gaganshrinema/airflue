@@ -5,7 +5,23 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #6b6b6b;
+    font-optical-sizing: auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0.8)),
+        url("../../images/dron/bg1.jpg");
+    ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 /* BACKGROUND DRONE LAYER */
@@ -80,16 +96,6 @@ a {
 a:hover {
     text-decoration: none;
     opacity: 0.7;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #6b6b6b;
-    font-optical-sizing: auto;
 }
 
 p {
@@ -1356,10 +1362,23 @@ span.airFlue_list_icon {
 }
 
 /* ===== 6. Service Area CSS ===== */
+.airflue_widget_list li {
+    padding: 4px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    margin: 10px 0;
+}
 
-.photography_img_inner img{
+.airflue_list_icon .icofont{
+    color: #092fc1;
+}
+
+.photography_img_inner img {
     border-radius: 18px;
 }
+
 .dron_service_area {
     padding: 112px 0 62px;
 }
@@ -2953,6 +2972,10 @@ button:focus {
 .airFlue_apartment_form .btn:hover {
     background-color: #14b1bb;
     ;
+}
+
+.dron_photography_area {
+    padding: 48px 0 98px;
 }
 
 .form-control:focus {
