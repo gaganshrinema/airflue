@@ -45,7 +45,7 @@
     }
 
     .airFlue_swiper_area2 .airFlue_swiper_content {
-        top: 50%;
+        top: 25%;
     }
 
     .slick-prev {
@@ -301,7 +301,6 @@
 
     .airFlue_swiper_area2 .airFlue_sw_text_area {
         width: 70%;
-        height: 100%;
     }
 
     .airFlue_swiper_area2 .airFlue_swiper_content h2,
