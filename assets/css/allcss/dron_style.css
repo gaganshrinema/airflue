@@ -327,14 +327,15 @@ a:focus,
     width: 100%;
     position: absolute;
 }
+
 .video-overlay2 {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(13, 31, 56, 0.4); 
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 31, 56, 0.2);
 }
 
 /* LOGO CSS */
@@ -438,7 +439,7 @@ a:focus,
     border-radius: 100px;
     width: auto;
     z-index: 999;
-    background-color: rgba(13, 31, 56, 0.4);
+    background-color: rgba(13, 31, 56, 0.2);
 
 }
 
@@ -1158,6 +1159,9 @@ a.dtbtn:hover {
 
 .airFlue_swiper_area2 .airFlue_swiper_content {
     top: 30%;
+    background-color: rgba(13, 31, 56, 0.5);
+    border-radius: 18px;
+    padding: 30px;
 }
 
 .airFlue_swiper_area2 .airFlue_swiper_height {
@@ -1192,13 +1196,16 @@ a.dtbtn:hover {
     margin-bottom: 20px;
     text-align: left;
 }
-.sub-item:hover img{
+
+.sub-item:hover img {
     transform: rotate(45deg);
     transition: all 0.5s ease-in-out;
 }
-.sub-item img{
+
+.sub-item img {
     transition: all 0.5s ease-in-out;
 }
+
 .all_feature_color {
     transition: .5s;
 }
@@ -1387,7 +1394,7 @@ span.airFlue_list_icon {
     margin: 10px 0;
 }
 
-.airflue_list_icon .icofont{
+.airflue_list_icon .icofont {
     color: #092fc1;
 }
 
@@ -1686,10 +1693,10 @@ span.airFlue_list_icon {
 }
 
 .dron2_video_area .airFlue_all_color_v {
-    background-image: url(../../images/dron/video-bg2.png);
+    /* background-image: url(../../images/dron/video-bg2.png); */
     background-position: center center;
     background-size: contain;
-    padding: 231px 0 235px;
+    padding: 150px 0 150px;
     background-repeat: no-repeat;
     z-index: 999;
     position: relative;
