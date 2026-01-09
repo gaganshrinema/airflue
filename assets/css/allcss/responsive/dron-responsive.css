@@ -301,6 +301,7 @@
 
     .airFlue_swiper_area2 .airFlue_sw_text_area {
         width: 70%;
+        height: 100%;
     }
 
     .airFlue_swiper_area2 .airFlue_swiper_content h2,
@@ -939,6 +940,7 @@
 
 /* ------------------------------------------------- Tablet Screen : 768 ---------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
+
     .air-header-top {
         padding: 10px 10px;
     }
@@ -997,11 +999,11 @@
     }
 
     .airFlue_swiper_height {
-        height: 700px !important;
+        height: auto;
     }
 
     .airFlue_swiper_area2 .airFlue_swiper_height {
-        height: 1000px !important;
+        height: auto;
     }
 
     .airFlue_swiper_area2 .airFlue_shape_item_inner {
@@ -2166,6 +2168,10 @@
 
 /* ------------------------------------------------- Small Mobile : 320 ---------------------------------------------------*/
 @media (max-width: 767px) {
+    .service_middle_img .single_video {
+        height: 100vh;
+    }
+
     .air-header-top {
         display: none;
     }
@@ -2897,9 +2903,9 @@
         padding-top: 10px;
     }
 
-    .airFlue_section_title {
+    /* .airFlue_section_title {
         text-align: center;
-    }
+    } */
 
     .airFlue_section_title .text-right {
         text-align: center !important;
@@ -4133,6 +4139,11 @@
 
     .mobile_logo_area {
         display: block !important;
+        background-color: rgba(13, 31, 56, 0.5);
+    }
+
+    .mobile_logo_area img {
+        width: 150px;
     }
 
     .dron-main-menu {
