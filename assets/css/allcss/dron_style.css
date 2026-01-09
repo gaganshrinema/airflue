@@ -327,7 +327,7 @@ a:focus,
     width: 100%;
     position: absolute;
 }
-.video-overlay {
+.video-overlay2 {
   content: "";
   position: absolute;
   top: 0;
@@ -404,12 +404,12 @@ a:focus,
     margin-right: 15px !important;
 }
 
-.air_menu>ul>li.current>a,
+/* .air_menu>ul>li.current>a,
 .air_menu>ul>li:hover>a,
 .creative_header_menu>ul>li:hover>a {
     color: #0d1f38;
     background-color: transparent;
-}
+} */
 
 .air_menu>ul>li:hover>a:before,
 .air_menu>ul>li.current>a:before {
@@ -2365,10 +2365,10 @@ mc4wp-form-fields p,
     display: block;
 }
 
-.copy-right-text a,
+/* .copy-right-text a,
 .footer-menu ul li a:hover {
     color: #000000;
-}
+} */
 
 /* sdronoll up css */
 #scrollUp {
