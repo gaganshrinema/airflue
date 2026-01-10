@@ -2167,9 +2167,9 @@ span.airFlue_list_icon {
 }
 
 /* ===== 15. Footer Area CSS ===== */
-.airFluefm_area {
+/* .airFluefm_area {
     position: relative;
-}
+} */
 
 .airFluefm_area:before {
     content: "";
